@@ -11,7 +11,6 @@
         <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/CustomInfoSystem-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="CustomInfoSystem_main/web/Web Gradle : CustomInfoSystem-1.0-SNAPSHOT.war" />
-      <element id="javaee-facet-resources" facet="CustomInfoSystem_main/web/Web Gradle : CustomInfoSystem-1.0-SNAPSHOT.war" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="CustomInfoSystem_main" />

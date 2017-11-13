@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/context
+                        http://www.springframework.org/schema/context/spring-context.xsd
+                        http://www.springframework.org/schema/mvc
+                        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+                        http://www.springframework.org/schema/aop
+                        http://www.springframework.org/schema/aop/spring-aop.xsd
+                        http://www.springframework.org/schema/tx
+                        http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+
+    <!--ioc扫描-->
+    <context:component-scan base-package="com"/>
+
+    <!--开启aop自动扫描代理-->
+    <aop:aspectj-autoproxy/>
+
+    <!--扩充注解驱动，可以将请求参数绑定到控制器参数-->
+    <!--代替映射器和适配器-->
+    <mvc:annotation-driven/>
+
+    <!--静态资源解析器-->
+    <mvc:default-servlet-handler/>
+
+    <!--全局异常处理器-->
+    <!--<bean class="com.springmvc.exception.SystemExceptionResolver"/>-->
+
+    <!--拦截器-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <mvc:exclude-mapping path="/**/fonts/*"/>
+            <mvc:exclude-mapping path="/**/*.css"/>
+            <mvc:exclude-mapping path="/**/*.js"/>
+            <mvc:exclude-mapping path="/**/*.png"/>
+            <mvc:exclude-mapping path="/**/*.gif"/>
+            <mvc:exclude-mapping path="/**/*.jpg"/>
+            <mvc:exclude-mapping path="/**/*.jpeg"/>
+            <mvc:exclude-mapping path="/**/*login*"/>
+            <mvc:exclude-mapping path="/**/*test*"/>
+            <mvc:exclude-mapping path="/android/**"/>
+            <mvc:exclude-mapping path="/getCode"/>
+            <mvc:exclude-mapping path="/forget"/>
+            <bean class="com.springmvc.interceptor.LoginInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+    
+    <!--视图解析器
+    解析jsp，默认使用jstl标签-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!--<property name="prefix" value="/WEB-INF/jsp/"/>-->
+        <!--<property name="suffix" value=".jsp"/>-->
+    </bean>
+
+</beans>

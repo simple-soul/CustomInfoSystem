@@ -9,6 +9,8 @@ buildscript {
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-noarg:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-allopen:$kotlin_version"
     }
 }
 
@@ -18,10 +20,10 @@ apply plugin: 'kotlin-noarg'
 apply plugin: 'kotlin-allopen'
 
 noArg{
-    annotation("annotation.Bean")
+    annotation("com.annotations.bean")
 }
 allOpen{
-    annotation("annotation.Bean")
+    annotation("com.annotations.bean")
 }
 
 repositories {
