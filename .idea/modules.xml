@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomInfoSystem.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomInfoSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomInfoSystem_main.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomInfoSystem_main.iml" group="CustomInfoSystem" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomInfoSystem_test.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomInfoSystem_test.iml" group="CustomInfoSystem" />
+    </modules>
+  </component>
+</project>
