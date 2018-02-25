@@ -38,7 +38,6 @@
           <element id="library" level="project" name="Gradle: org.codehaus.jackson:jackson-core-asl:1.9.13" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.9" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.9" />
-          <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.8.1" />
           <element id="library" level="project" name="Gradle: org.mybatis:mybatis:3.4.4" />
           <element id="library" level="project" name="Gradle: asm:asm:3.3.1" />
           <element id="library" level="project" name="Gradle: org.javassist:javassist:3.20.0-GA" />
@@ -49,7 +48,6 @@
           <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-api:2.8.2" />
           <element id="library" level="project" name="Gradle: org.slf4j:slf4j-log4j12:1.7.25" />
           <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.25" />
-          <element id="library" level="project" name="Gradle: com.qiniu:qiniu-java-sdk:7.2.8" />
           <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.4-3" />
           <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.4-3" />
           <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
@@ -58,11 +56,9 @@
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.9" />
           <element id="library" level="project" name="Gradle: org.ow2.asm:asm:5.2" />
           <element id="library" level="project" name="Gradle: org.apache.ant:ant:1.9.6" />
-          <element id="library" level="project" name="Gradle: com.squareup.okhttp3:okhttp:3.3.1" />
-          <element id="library" level="project" name="Gradle: com.qiniu:happy-dns-java:0.1.6" />
           <element id="library" level="project" name="Gradle: org.jetbrains:annotations:13.0" />
           <element id="library" level="project" name="Gradle: org.apache.ant:ant-launcher:1.9.6" />
-          <element id="library" level="project" name="Gradle: com.squareup.okio:okio:1.8.0" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.1/2a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0/gson-2.8.1.jar" />
         </element>
       </element>
     </root>

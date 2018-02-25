@@ -2,7 +2,7 @@ group 'com.simple'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.1.4-3'
+    ext.kotlin_version = '1.2.10'
 
     repositories {
         jcenter()
@@ -71,8 +71,6 @@ dependencies {
     compile "org.apache.logging.log4j:log4j-api:2.8.2"
     compile "org.slf4j:slf4j-log4j12:1.7.25"
     compile "org.slf4j:slf4j-api:1.7.25"
-    //七牛云
-    compile 'com.qiniu:qiniu-java-sdk:7.2.+'
 
     testCompile "junit:junit:4.12"
 }

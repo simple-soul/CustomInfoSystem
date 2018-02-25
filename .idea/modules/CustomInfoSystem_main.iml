@@ -42,7 +42,7 @@
           <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../src/main/webapp/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
-          <root url="file://C:\Users\Administrator\IdeaProjects\CustomInfoSystem\src\main\webapp" relative="/" />
+          <root url="file://C:\Users\simple_soul\IdeaProjects\CustomInfoSystem\src\main\webapp" relative="/" />
         </webroots>
       </configuration>
     </facet>
@@ -89,7 +89,6 @@
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.8.2" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-log4j12:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
-    <orderEntry type="library" name="Gradle: com.qiniu:qiniu-java-sdk:7.2.8" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.4-3" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.4-3" level="project" />
     <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
@@ -98,10 +97,7 @@
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.9" level="project" />
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm:5.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.ant:ant:1.9.6" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.3.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.qiniu:happy-dns-java:0.1.6" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.ant:ant-launcher:1.9.6" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.8.0" level="project" />
   </component>
 </module>
